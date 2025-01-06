@@ -45,6 +45,7 @@ print(squares)  # Prints [4, 16] x % 2 se trae multiplos de dos
 #Tuples
 #--------------------------------------
 # La tupla es con () y el arreglo con [])
+# La tupla solo se declara una vez y ya no se pueden alterar el tamaño
 point = (3, 4)
 print(point[0])  # Prints 3
 
@@ -53,7 +54,7 @@ my_tuple = (1, 2, 3, 2, 4, 2)
 print (my_tuple.index(2))   # Output: 1 
 print (my_tuple.index(2, 2))   #Output: 3 
 print (my_tuple.index(2, 2, 4))   #Output: 3
-
+ 
 
 #Dictionaries
 #--------------------------------------
